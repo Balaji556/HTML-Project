@@ -1,0 +1,36 @@
+.user{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    animation: TechWing 5s infinite;
+    position: relative;
+}
+@keyframes TechWing{
+    0%{
+      top: 0;
+      left: 0;
+      background-color: aquamarine;
+    }
+    25%{
+      top: 0;
+      left: 1200px;
+      background-color: burlywood;
+      
+    }
+     50%{
+       top: 500px;
+       left: 1200px;
+       background-color: rgb(212, 13, 13);
+     }
+     75%{
+       top: 500px;
+       left: 0px;
+       background-color: chartreuse;
+     }
+     100%{
+      top: 0px;
+      left: 0px;
+      background-color: pink;
+     }
+}

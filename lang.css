@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    background-color: #1a1a1a; /* Dark background, Spotify-inspired */
+    color: white;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Language Selection Container */
+.language-container {
+    text-align: center;
+    background-color: #282828; /* Darker background for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.language-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.language-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.language-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language-option {
+    color: white;
+    text-decoration: none;
+    background-color: #282828;  /* Spotify green */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+
+
+

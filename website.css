@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: oldlace;
+    
+}
+nav {
+    display: flex;
+    padding: 0px 10px;
+    background-color: oldlace;
+    height: 70px;
+}
+nav .action{
+    margin-left: 560px;
+    padding-top: 25px;
+}
+nav .action a{
+    margin-left: 40px;
+    text-decoration: none;
+    
+}
+
+nav .logo img{
+    max-width: 45%;
+    object-fit: contain;
+    padding: 8px;
+}
+hr{
+    color: #111;
+    margin: 0 7px;
+}
+.cards{
+    display: flex;
+    margin: 10px 20px;
+    padding: 3px;
+}
+
+.cards .card img{
+    object-fit: contain;
+    border-radius: 20px ;
+    max-width: 300px;
+    height: 200px;
+}
+.cards .card h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards .card{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 20px 20px;
+    transition: transform 300ms;
+}
+
+.cards .card:hover{
+    transform: scale(1.1);
+    border: 1px solid transparent;
+}
+
+.videos video{
+  object-fit: cover;
+  width: 219vh;
+  height: 80vh;
+  margin: 5px;
+}
+.watch p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.watch p:hover{
+    transform: scale(1.5);
+    overflow-y: hidden;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+    
+}
+.cards{
+    display: flex;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+.cards .card-title h1{
+    text-align: center;
+    font-size: small;
+    font-weight: 200;
+}
+marquee{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
+.circle1{
+    display: flex;
+    margin: 10px 20px;
+    padding: 3px;
+    display: flex;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+.circle1 img{
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 20px 20px;
+    width: 230px;
+    height: 100px;
+}
+.circle1 .cir-img:hover{
+    transform: scale(1.1);
+    border: 1px solid transparent;
+    transition: transform 300ms;
+}
+.circle1::-webkit-scrollbar {
+    display: none;
+}
+footer{
+    background-color: black;
+    height: 25vh;
+}
+.down{
+    display: flex;
+    color: white;
+}
+.footer-image img{
+    height: 50px;
+    width: 150px;
+    margin: 40px;
+    margin-left: 300px;
+}
+.privacy a , .terms a{
+    text-decoration: none;
+    color: white;
+    
+}
+.privacy , .terms{
+    margin: 56px;
+    
+}
+.privacy p{
+    padding-left: 40px;
+}
+.terms p{
+    margin-left: -20px;
+}
+.privacy a:hover{
+    transition: 0.5;
+    color: orangered;
+}
+.terms a:hover{
+    transition: 0.5;
+    color: orangered;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+}
+
+.login-box {
+    background-color: black;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background: black;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: black;
+}
+
+.or-divider span {
+    margin: 0 10px;
+    color:white;
+    font-size: 14px;
+}
+
+.login-facebook button {
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-size: 12px;
+}
+
+.signup-box {
+    
+    padding: 15px;
+    border-radius: 12px;
+    
+    width: 280px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solidwhit
+;
+    }
+
+.signup-box p {
+    margin: 5;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    color:white;
+
+}
+
+.signup-box a {
+    color: cornflowerblue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}

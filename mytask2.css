@@ -1,0 +1,150 @@
+*{
+    background-color: #999;
+}
+.parent{
+    border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-color: rgb(8, 8, 8);
+}
+.child1{
+    border-style: solid;
+  border-width: 5px;
+  width: 60px;
+  height: 90px;
+  margin-top: 80px;
+  margin-left: 5px;
+  border-color:white;
+}
+.child2{
+    border-style: solid;
+  border-width: 5px;
+  width: 10px;
+  height: 100px;
+  margin-left: 4px;
+  border-color: orange;
+}
+.child3{
+    border-style: solid;
+  border-width: 5px;
+  width: 10px;
+  height:100px ;
+  margin-top: -110px;
+  margin-left: 54px;
+  border-color: orange;
+}
+.child4{
+    border-style: solid;
+  border-width: 5px;
+  width: 20px;
+  height: 10px;
+  border-color: burlywood;
+}
+.child5{
+    border-style: solid;
+  border-width: 5px;
+  width: 20px;
+  height: 10px;
+  margin-left:50px ;
+  margin-top:-20px ;
+  border-color: burlywood;
+}
+.hand1{
+    border-style: solid;
+    border-width: 5px;
+    width: 60px;
+    height: 20px;
+    margin-left: -75px;
+    border-color: blue;
+}
+.hand2{
+    border-style: solid;
+    border-width: 5px;
+    width: 60px;
+    height: 20px;
+    margin-left: 65px;
+    margin-top: -30px;
+    border-color: blue;
+}
+.circle1{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    margin-top: -5px;
+    border-color: burlywood;
+}
+.circle2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: -5px;
+    border-color:burlywood;
+}
+.dot1{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -290px;
+    position: absolute;
+    margin-left: 15px;
+    border-color: rgb(2, 2, 2);
+}
+.dot2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -290px;
+    position: absolute;
+    margin-left: 50px;
+    border-color: black;
+}
+.dot3{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:2px ;
+    height: 2px;
+    margin-top: -270px;
+    margin-left: 33px;
+    border-color: rgb(219, 16, 16);
+}
+.mouth{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    width: 15px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: 26px;
+    border-color: burlywood;
+}
+.cap{
+    border-left: 30px  solid transparent;
+    border-right: 30px  solid transparent;
+    border-bottom: 30px solid rgb(175, 20, 20);
+    margin-top: -90px;
+}
+.dot4{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    width:10px ;
+    height: 10px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
